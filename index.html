@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="h3 text-center">Movies catalog</h1>
+        <div class="row">
+            <div class="firstcolomn col-3">
+                <form action="get">
+                    <input class="form-control form-control-sm mb-3" type="text" placeholder="even" aria-label="sfsd">
+                    <input type="number" placeholder="5" class="form-control mb-3">
+                    <select class="form-select mb-3" aria-label="Default select example">
+                        <option selected>All</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    <select class="form-select mb-3" aria-label="Default select example">
+                        <option selected>Raiting (high to low)</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-primary" type="button">Search</button>
+                    </div>
+                </form>
+                <h3 class="h5 mt-3 mb-3">Bookmarked movies</h3>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <p>Avengers:Infinity War</p>
+                        <button type="button" class="btn btn-danger">Remove</button>
+                    </li>
+                    <li class="list-group-item">
+                        <p>The Avengers</p>
+                        <button type="button" class="btn btn-danger">Remove</button>
+                    </li>
+                    <li class="list-group-item">
+                        <p>Avengers:Age of Ultron</p>
+                        <button type="button" class="btn btn-danger">Remove</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="secondcolumn col-9">
+                <h3 class="h6">Search results</h3>
+                <form action="get">
+                    <input type="text" class="form-control bg-info bg-gradient" id="formGroupExampleInput" placeholder="Use the form on the left to search for a movie">
+                    <div class="row">
+                        <div class="col-6 m-2 mt-5">
+                            <img src="project-oscar.jpg" width="365" height="220" alt="fdf">
+                            <p class="mt-3">Avengers:Infinity War</p>
+                            <ul class="list-group list-group-horizontal">
+                                <li class="list-group-item p-0 h-100 m-1"><a href="#" class="btn btn-outline-primary p-1">Watch_trailer</a></li>
+                                <li class="list-group-item  p-0 h-100 m-1"><button type="button" class="btn btn-outline-primary p-1">More_info</button></li>
+                                <li class="list-group-item  p-0 h-100 m-1 "><button type="button" class="btn btn-outline-success p-1">Bookmark</button></li>
+                              </ul>
+                        </div>
+                        <div class="col-3 m-2 mt-5">
+                            <img src="project-oscar.jpg" width="365" height="220" alt="fdf">
+                            <p  class="mt-3">The Avengers</p>
+                            <ul class="list-group list-group-horizontal">
+                                <li class="list-group-item p-0 h-100 m-1"><a href="#" class="btn btn-outline-primary p-1">Watch_trailer</a></li>
+                                <li class="list-group-item  p-0 h-100 m-1"><button type="button" class="btn btn-outline-primary p-1">More_info</button></li>
+                                <li class="list-group-item  p-0 h-100 m-1 "><button type="button" class="btn btn-outline-success p-1">Bookmark</button></li>
+                              </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 m-2">
+                            <img src="project-oscar.jpg" width="365" height="220" alt="fdf">
+                            <p  class="mt-3">Avengers:Age of Ultron</p>
+                            <ul class="list-group list-group-horizontal">
+                                <li class="list-group-item p-0 h-100 m-1"><a href="#" class="btn btn-outline-primary p-1">Watch_trailer</a></li>
+                                <li class="list-group-item  p-0 h-100 m-1"><button type="button" class="btn btn-outline-primary p-1">More_info</button></li>
+                                <li class="list-group-item  p-0 h-100 m-1 "><button type="button" class="btn btn-outline-success p-1">Bookmark</button></li>
+                              </ul>
+                        </div>
+                        <div class="col-3 m-2">
+                            <img src="project-oscar.jpg" width="365" height="220" alt="fdf">
+                            <p  class="mt-3">Kingdom of Heaven</p>
+                            <ul class="list-group list-group-horizontal">
+                                <li class="list-group-item p-0 h-100 m-1"><a href="#" class="btn btn-outline-primary p-1">Watch_trailer</a></li>
+                                <li class="list-group-item  p-0 h-100 m-1"><button type="button" class="btn btn-outline-primary p-1">More_info</button></li>
+                                <li class="list-group-item  p-0 h-100 m-1 "><button type="button" class="btn btn-outline-success p-1">Bookmark</button></li>
+                              </ul>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
